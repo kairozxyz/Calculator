@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('math.jpg') no-repeat center center/cover;
+        backdrop-filter: b(10px); /* Blur effect */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:  transparent;
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,255,255);
+    text-align: center;
+    width: 360px;
+    border: solid #ffffff;
+
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    background-color:rgb(20, 255, 255);
+    color: white;
+   
+}
+
+button:hover {
+    background-color: transparent;
+    opacity: 0.9;
+    border: solid rgb(255, 255, 255) 5px;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+#output {
+    text-align: right;
+    font-size: 48px;
+    color: white;
+    border: solid white 2px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+
+
+}
